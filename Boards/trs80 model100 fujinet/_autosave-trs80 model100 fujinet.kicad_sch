@@ -2372,7 +2372,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 708348a4-3135-4b5e-890e-4e3aaa89968e)
   )
-  (text "we need 4 ports for this exact circuit\na write to $00 writes a byte out\na write to $01 goes nowhere\na write to $02 sets (or unsets?) the SD_OUT teltale to see if a spi device is present\nand a write to $03 does the same\ner, opposite\na read from $02 and $03 set or unset the CS line\nwhich we may not care about\na read from $01 asynchronously clocks in 8 data bits to a shift register (kicks it off)\nand a read from $00 retrives those bits\nI'd say we can cut that down to 2 ports if we lose the checking for sd card thing and selecting/unselecting the sd card\nsince we are always going to have the esp32 selected (right?) and it will be soldered on and not unplugged"
+  (text "we need 4 ports for this exact circuit\na write to $00 writes a byte out\na write to $01 goes nowhere\na write to $02 sets (or unsets?) the SD_OUT teltale to see if a spi device is present\nand a write to $03 does the opposite\na read from $02 and $03 set or unset the CS line\nwhich we may not care about\na read from $01 asynchronously clocks in 8 data bits to a shift register (kicks it off)\nand a read from $00 retrives those bits\nI'd say we can cut that down to 2 ports if we lose the checking for sd card thing and selecting/unselecting the sd card\nsince we are always going to have the esp32 selected (right?) and it will be soldered on and not unplugged"
     (at 76.2 -3.175 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a3603ebc-86bb-4e12-bb40-e1f69ed76995)
