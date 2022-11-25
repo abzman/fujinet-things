@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.0)"
     },
-    "CreationDate": "2022-01-24T18:05:25-05:00"
+    "CreationDate": "2022-08-18T22:07:18-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "gpib breakout-F_Cu.gbr",
+      "Path": "gpib breakout-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "gpib breakout-B_Cu.gbr",
+      "Path": "gpib breakout-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "gpib breakout-F_Paste.gbr",
+      "Path": "gpib breakout-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "gpib breakout-B_Paste.gbr",
+      "Path": "gpib breakout-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "gpib breakout-F_Silkscreen.gbr",
+      "Path": "gpib breakout-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "gpib breakout-B_Silkscreen.gbr",
+      "Path": "gpib breakout-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "gpib breakout-F_Mask.gbr",
+      "Path": "gpib breakout-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "gpib breakout-B_Mask.gbr",
+      "Path": "gpib breakout-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "gpib breakout-Edge_Cuts.gbr",
+      "Path": "gpib breakout-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
